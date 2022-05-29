@@ -1,0 +1,36 @@
+Como o componente "renderiza"
+1. Criar uma nova versao do componente
+2. Compara com a versao anterior
+3. Se houverem alterações vai atualizar o que foi alterado
+
+Quando ultilizar o memo
+
+1. pure functional components
+2. renders to often
+3. re-renders with same props
+4. medium to big size
+
+
+useMemo
+
+1. calculos pesados
+2. igualdade referencial, quando passa a informação para um componente filho
+
+useCallback
+
+1. memorizar uma função e nao um valor
+
+codding splitting
+
+react => lazy
+next => dynamic from next/dynamic
+
+virtualizacao
+
+listas grandes, baixar lib react-virtualized
+yarn add react@^17 react-dom@^17
+yarn add @types/react@^17 -D
+yarn add @types/react-dom@^17 -D
+
+Bundle Analyzer
+https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer
